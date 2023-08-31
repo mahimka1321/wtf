@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root
+{
+    --colorBlue200: #23A6FF;
+    --colWhite_400: #F4F4FF;
+    --colGold_800: #c9ae86;
+    --colGold_900: #FFCF96; 
+    --BH:rgba(0, 0, 0, 0.25);
+
+    --colDarck: #000;
+
+    --colWhiteBtn: #F4F4FF;
+    --colBlueBtn: #23A6FF;
+}
+
+.cl__container-size
+{
+    width: 1000px;
+}
+
+@media screen and (max-width: 1024px) 
+{
+    .cl__container-size
+    {
+        max-width: 1000px;
+        min-width: 200px;
+        width: 100%;
+    }
+}
+
+._tr__on_t
+{
+    transition: 0s;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .opMbox
+    {
+        display: block;
+        justify-content: none;
+    }
+}
+

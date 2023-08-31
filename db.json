@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "name": "ivan zolo",
+      "email": "123",
+      "password": "123",
+      "bought": [
+        {
+          "city": "Владимир",
+          "img": "https://mahimka1321.github.io/testapp/static/media/1.4578b441a573955bcc01.webp",
+          "id": 1,
+          "tours": [
+            {
+              "id": 2,
+              "name": "Семейный тур",
+              "price": 200,
+              "time": 39,
+              "subscribe": false
+            },
+            {
+              "id": 3,
+              "name": "Спортивный тур",
+              "price": 200,
+              "time": 39,
+              "subscribe": false
+            },
+            {
+              "id": 4,
+              "name": "Быстрый тур",
+              "price": 200,
+              "time": 39,
+              "subscribe": false
+            },
+            {
+              "id": 1,
+              "name": "Про тур",
+              "time": 39,
+              "price": 200,
+              "subscribe": true
+            }
+          ]
+        },
+        {
+          "city": "Иваново",
+          "img": "https://mahimka1321.github.io/testapp/static/media/1.26585d9ef02d035f4628.webp",
+          "id": 6,
+          "tours": [
+            {
+              "id": 2,
+              "name": "Семейный тур",
+              "price": 200,
+              "time": 39,
+              "subscribe": false
+            },
+            {
+              "id": 1,
+              "name": "Полный тур",
+              "time": 39,
+              "price": 200,
+              "subscribe": true
+            }
+          ]
+        },
+        {
+          "city": "Суздаль",
+          "img": "https://mahimka1321.github.io/testapp/static/media/1.a23e63dd3565d7d6bb2c.webp",
+          "id": 2,
+          "tours": [
+            {
+              "id": 2,
+              "name": "Семейный тур",
+              "time": 39,
+              "price": 200,
+              "subscribe": true
+            },
+            {
+              "id": 1,
+              "name": "Полный тур",
+              "time": 9,
+              "price": 200,
+              "subscribe": true
+            }
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "img": "https://mahimka1321.github.io/testapp/static/media/1.4578b441a573955bcc01.webp",
+      "city": "Владимир",
+      "numTour": 2,
+      "tours": [
+        {
+          "id": 1,
+          "name": "Про тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 3,
+          "name": "Спортивный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 4,
+          "name": "Быстрый тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "https://mahimka1321.github.io/testapp/static/media/1.a23e63dd3565d7d6bb2c.webp",
+      "city": "Суздаль",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Полный тур",
+          "price": 200,
+          "time": 9,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "https://mahimka1321.github.io/testapp/static/media/1.ac1cae9b757b3d81fc06.webp",
+      "city": "Ковров",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Полный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "https://mahimka1321.github.io/testapp/static/media/1.b03dbeaed79741aabe0d.webp",
+      "city": "Москва",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Полный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://sun9-19.userapi.com/impg/gaiHGMZ2qMMRoFV2jZjxSy8mUrwzKEQl7H7TJA/-IeRX31m27Q.jpg?size=2560x1706&quality=95&sign=c248ab51cf685127e3266f39f80d47b4&c_uniq_tag=QZQLMA92NTDW3ulHdnohwUylK9oYAI6pPDPyg7Lb-Y8&type=album",
+      "city": "Санкт-Петербург",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Полный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://mahimka1321.github.io/testapp/static/media/1.26585d9ef02d035f4628.webp",
+      "city": "Иваново",
+      "tours": [
+        {
+          "id": 1,
+          "name": "Полный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        },
+        {
+          "id": 2,
+          "name": "Семейный тур",
+          "price": 200,
+          "time": 39,
+          "subscribe": false
+        }
+      ]
+    }
+  ]
+}
